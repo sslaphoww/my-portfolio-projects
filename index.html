@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">RATH</div>
+            <nav>
+            <a href="#">About</a>
+            <a href="#">Technology</a>
+            <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to RATH</h1>
+                <p>We are a new company developing a new generation of devices for VR gaming - EMU-SPHERES.</p>
+                <a class="btn">GET STARTED</a>
+            </div>
+        </section>
+        <section class="sector2">
+            <div class="cards">
+                <div class="card">
+                    <img src="https://github.com/sslaphoww/my-portfolio-projects/blob/main/icon1.png?raw=true" class="card-icon">
+                    <h3 class="card-title">Realism of the game</h3>
+                    <p>Experience immersion beyond the screen — feel touch, smell, and even temperature.</p>
+                </div>
+                <div class="card">
+                    <img src="https://github.com/sslaphoww/my-portfolio-projects/blob/main/icon2.png?raw=true" class="card-icon">
+                    <h3 class="card-title">Well-coordinated team</h3>
+                    <p>A professional team united by one goal: push VR to a new technological era.</p>
+                </div>
+                <div class="card">
+                    <img src="https://github.com/sslaphoww/my-portfolio-projects/blob/main/icon3.png?raw=true" class="card-icon">
+                    <h3 class="card-title">Opportunity to explore the whole world</h3>
+                    <p>Travel through limitless universes with full sensory immersion.</p>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="vr">
+            <model-viewer 
+                src="Assets/vr.glb"
+                alt="VR Headset"
+                auto-rotate
+                camera-controls
+                exposure="1.2"
+                shadow-intensity="1"
+                style="width: 600px; height: 600px; margin: auto;">
+            </model-viewer>
+            </div>
+            <div class="about-content">
+                <h1>ABOUT US</h1>
+                <p>We are RATH — a team shaping the next era of virtual reality.
+                Our creation, EMU-SPHERES, blurs the line between the world you see and the world you feel.
+
+                We design technology that makes virtual worlds breathe, move, and respond to you.
+                Every touch. Every step. Every moment — alive.
+
+                This is not the future.
+                This is the beginning.</p>
+            </div>
+        </section>
+    </body>
+</html>
