@@ -269,7 +269,7 @@ body {
   }
 
   .vr {
-    max-width: 90%;
+    max-width: 70%;
     margin: 0 auto;
     display: block;
   }
@@ -319,11 +319,12 @@ body {
   }
 
   .vr {
-    max-width: 85%;
+    max-width: 70%;
   }
 
   .contact-card {
     font-size: 1.2rem;
     height: 60px;
   }
+
 }
