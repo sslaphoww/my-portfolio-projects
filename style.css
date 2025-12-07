@@ -155,7 +155,7 @@ body {
 }
 
 .about-content {
-  margin-right: 200px;
+  margin-right: 300px;
   width: 100%;
   max-width: 600px;
   font-size: 1.3rem;
@@ -268,7 +268,7 @@ body {
   }
 
   .vr {
-    max-width: 150px;
+    max-width: 0px;
   }
 
   .contact {
@@ -317,4 +317,5 @@ body {
     font-size: 1.2rem;
     height: 60px;
   }
+
 }
