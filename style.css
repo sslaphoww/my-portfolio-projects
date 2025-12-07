@@ -101,10 +101,6 @@ body {
   padding: 80px 20px;
   font-size: 1.3rem;
   text-align: center;
-  background:
-    linear-gradient(#000, rgba(0,0,0,0.3)),
-    url(https://github.com/sslaphoww/my-portfolio-projects/blob/main/background.png?raw=true)
-    center/cover no-repeat fixed;
 }
 
 .cards {
@@ -342,7 +338,7 @@ body {
     max-width: 65%;
     object-fit: contain;
     object-position: center;
-    transform: translateX(-5%);
+    transform: translateX(-20%);
   }
 
   .contact-card {
@@ -350,3 +346,4 @@ body {
     height: 60px;
   }
 }
+
