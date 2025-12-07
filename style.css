@@ -101,6 +101,10 @@ body {
   padding: 80px 20px;
   font-size: 1.3rem;
   text-align: center;
+  background:
+    linear-gradient(#000, rgba(0,0,0,0.3)),
+    url(https://github.com/sslaphoww/my-portfolio-projects/blob/main/background.png?raw=true)
+    center/cover no-repeat fixed;
 }
 
 .cards {
@@ -278,6 +282,8 @@ body {
     max-width: 75%;
     margin: 0 auto;
     display: block;
+    object-fit: contain;
+    object-position: center;
   }
 
   .contact {
@@ -331,6 +337,8 @@ body {
 
   .vr {
     max-width: 65%;
+    object-fit: contain;
+    object-position: center;
   }
 
   .contact-card {
