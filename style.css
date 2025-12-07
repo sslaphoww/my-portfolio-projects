@@ -170,6 +170,7 @@ body {
   height: auto;
   border-radius: 20px;
   display: block;
+  margin-right: 100px;
 }
 
 /* CONTACT */
@@ -328,3 +329,4 @@ body {
   }
 
 }
+
