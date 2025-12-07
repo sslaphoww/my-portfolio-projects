@@ -168,9 +168,17 @@ body {
   width: 100%;
   max-width: 450px;
   height: auto;
-  border-radius: 20px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 150px;
+}
+
+.vr model-viewer {
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  border-radius: 20px;
 }
 
 /* CONTACT */
@@ -277,12 +285,16 @@ body {
   }
 
   .vr {
-    max-width: 75%;
+    max-width: 90%;
     margin: 0 auto;
-    display: block;
-    object-fit: contain;
-    object-position: center;
-    transform: translateX(-5%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .vr model-viewer {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
   }
 
   .contact {
@@ -335,10 +347,13 @@ body {
   }
 
   .vr {
-    max-width: 65%;
-    object-fit: contain;
-    object-position: center;
-    transform: translateX(-20%);
+    max-width: 85%;
+  }
+
+  .vr model-viewer {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
   }
 
   .contact-card {
@@ -346,4 +361,3 @@ body {
     height: 60px;
   }
 }
-
