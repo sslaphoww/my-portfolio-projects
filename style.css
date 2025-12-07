@@ -270,6 +270,8 @@ body {
     padding: 40px 20px;
     flex-direction: column;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
   }
 
   .about-content {
@@ -284,6 +286,7 @@ body {
     display: block;
     object-fit: contain;
     object-position: center;
+    transform: translateX(-5%);
   }
 
   .contact {
@@ -339,6 +342,7 @@ body {
     max-width: 65%;
     object-fit: contain;
     object-position: center;
+    transform: translateX(-5%);
   }
 
   .contact-card {
